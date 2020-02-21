@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(47, 65, 63);
+    height: 1630px;
+    display: grid;
+    grid-template-rows: 3fr 1fr
+}
+
+.interface {
+    color: turquoise;
+    font-size: 60px;
+    background: rgb(54, 54, 117);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.buttons2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#update {
+    color: white;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+    font-size: 30px;
+    background: green;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#save {
+    color: white;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+    font-size: 30px;
+    background: darkslateblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#delete {
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 150px;
+    width: 150px;
+    font-size: 30px;
+    color: white;
+    background: red;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#buttons {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-content: end;
+}
+
+.text {
+    text-transform: capitalize;
+    font-size: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#img {
+    height: 200px;
+    width: 200px;
+}
+
+.cities {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container {
+    display: flex;
+    overflow: scroll;
+    background-image: url(https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722375/night.png);
+}
+
+#city {
+    margin-right: 70px;
+    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#updated {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+#cityContainer{
+    margin-top:30px;
+}

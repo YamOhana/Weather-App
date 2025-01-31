@@ -42,7 +42,6 @@ router.delete('/city/:cityName', function (req, res) {
 })
 router.put('/city/:city', async function (req, res) {
     const qCity = req.params.city
-    let DATA = await requestPromise("https://api.openweathermap.org/data/2.5/weather?q=" + qCity + "&mode=xml&units=metric&appid=7c93907a79eab21327f846a552b5c770")
     parseString(DATA, (err, result) => {
         DATA = result.current
         DATA = [DATA]

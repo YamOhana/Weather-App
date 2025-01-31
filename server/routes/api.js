@@ -10,7 +10,6 @@ const parseString = require('xml2js').parseString;
 
 
 
-const apiKey = "&mode=xml&units=metric&appid=2a0dd50bd0921538326b3c103ea0b132"
 
 router.get('/city/:city', async function (req, res) {
     let DATA
